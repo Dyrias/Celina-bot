@@ -1,0 +1,9 @@
+Parser:
+For while the main string is getting characters, the substring will update.
+If the main string length is got, the parser will stop, and the words string will be ended, and finished properly.
+If there are still more characters in the substring, the function will return an error (Flag) signalizing that.
+If the sub main string length find it's end, and theres still charactera in the main string, the function will return an error (flag)
+
+The parser will receive a string, with the words that should be skipped.
+
+The parser will return only the flag, being the word list edited in the parameters.

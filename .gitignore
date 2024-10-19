@@ -1,3 +1,10 @@
+# Termux only
+ter_program
+
+# Make garbage
+*.swp
+*.un~
+
 # Prerequisites
 *.d
 
