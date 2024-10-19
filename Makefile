@@ -9,4 +9,9 @@ main.o: main.c
 
 memory.o: memory.c
 	gcc -c $^ -o $@
+fetch : 
+	git fetch origin
+	git merge origin/merge
 
+pull :
+	git pull origin main
