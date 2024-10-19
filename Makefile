@@ -14,4 +14,4 @@ fetch :
 	git merge origin/merge
 
 push :
-	git push origin main
+	git push --set-upstream origin main
